@@ -32,3 +32,4 @@ Add-Type -assembly “system.io.compression.filesystem”
 [io.compression.zipfile]::ExtractToDirectory($nunit_file, $storageDir)
 
 Remove-Item $nunit_file
+echo Nuget and Nunit Setup complete
